@@ -29,9 +29,6 @@ export default function Home() {
 }
 
 const Background = styled.div`
-  width: 100vw;
-  height: 100vh;
-  background-color: #ffb2b2;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
