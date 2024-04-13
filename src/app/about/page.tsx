@@ -1,6 +1,7 @@
 'use client';
 import styled from 'styled-components';
 import { fredoka } from '@/utils/fonts';
+import Link from 'next/link';
 
 export default function About() {
   return (
@@ -16,8 +17,13 @@ export default function About() {
       </StyledText>
       <StyledMenu>
         <ul>
-          <li>home</li>
-          <li>login</li>
+          <Link href={'/'}>
+            <li>home</li>
+          </Link>
+
+          <Link href={'/login'}>
+            <li>login</li>
+          </Link>
         </ul>
       </StyledMenu>
     </WrapperContent>
